@@ -1,0 +1,12 @@
+Clique Percolation Method for detecting overlapping communities
+ For makefiles, compile the code with
+"make all".
+
+Parameters:
+   -i:Input undirected graph file (single directed edge per line) 
+   -k:Minimal clique overlap size (default:3)
+   -o:Output file prefix (default:'')
+
+Usage:
+
+cliques -i:../graph_file.txt -k:2 -o:as20
